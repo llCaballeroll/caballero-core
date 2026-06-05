@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+}
+
+::selection {
+  @apply bg-cyan-400 text-slate-950;
+}
+
+.section-container {
+  @apply mx-auto w-full max-w-7xl px-6 lg:px-8;
+}
+
+.section-padding {
+  @apply py-20 lg:py-28;
+}
+
+.glass-card {
+  @apply border border-white/10 bg-white/[0.03] shadow-2xl shadow-cyan-950/20 backdrop-blur;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-cyan-300 via-blue-400 to-violet-400 bg-clip-text text-transparent;
+}
