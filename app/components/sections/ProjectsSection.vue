@@ -1,34 +1,52 @@
 <script setup lang="ts">
 const projects = [
   {
-    title: 'Sitios web para negocios locales',
+    title: 'Sitios web para negocios reales',
     category: 'Web',
-    description: 'Diseño y desarrollo de sitios informativos para negocios, marcas personales y servicios profesionales como ferreterías, estudios de belleza y psicología.'
+    description: 'Páginas para ferreterías, estudios de belleza, consultorios y marcas personales que necesitaban una presencia clara, profesional y fácil de mantener.'
   },
   {
-    title: 'Automatización de reportes operativos',
-    category: 'Datos',
-    description: 'Automatización de reportes, consultas SQL, archivos Excel, procesos administrativos y análisis de información para operación multi-sucursal.'
+    title: 'Reportes que se generan solos',
+    category: 'Automatización',
+    description: 'Procesos que antes tomaban horas cada día —descargar archivos, consolidar ventas, mandar reportes— ahora corren solos y llegan listos al correo.'
   },
   {
-    title: 'Sistemas internos para operación restaurantera',
+    title: 'Sistemas internos para operación multi-sucursal',
     category: 'Software',
-    description: 'Herramientas internas y procesos de soporte para operación, reportes, ventas, ERP, Softrestaurant, TOTVS, Kepler y bases de datos.'
+    description: 'Herramientas hechas a la medida para controlar ventas, inventarios y operación entre varias sucursales, con reportes centralizados y accesos por rol.'
   },
   {
-    title: 'Apps móviles con Flutter',
-    category: 'Mobile',
-    description: 'Desarrollo de aplicaciones móviles, prototipos y experiencias digitales usando Flutter, Dart y arquitectura multiplataforma.'
+    title: 'Snake Islands',
+    category: 'App móvil · Juego',
+    description: 'Más que un clásico: un nuevo desafío. Versión moderna del juego de la serpiente, publicada y disponible para jugar en navegador.',
+    href: 'https://llcaballeroll.github.io/snake_islands_web/',
+    linkLabel: 'Jugar ahora'
   },
   {
-    title: 'Caballero Game Studio',
-    category: 'Gaming',
-    description: 'Videojuegos y experiencias interactivas como Amon: The Mystic Oracle, Bounce Royale y Snake Islands.'
+    title: 'Amon: The Mystic Oracle',
+    category: 'App móvil · Juego',
+    description: 'El destino, revelado por tu voz. Experiencia interactiva con reconocimiento de voz, desarrollada con Flutter para Android e iOS.',
+    href: 'https://llcaballeroll.github.io/amon_oracle_web/',
+    linkLabel: 'Conocer el proyecto'
+  },
+  {
+    title: 'Bounce Royale',
+    category: 'App móvil · Juego',
+    description: 'El rey del rebote. Juego casual desarrollado con Flutter y Flame Engine, pensado para sesiones rápidas y divertidas.',
+    href: 'https://llcaballeroll.github.io/bounce_royale_web/',
+    linkLabel: 'Conocer el proyecto'
+  },
+  {
+    title: 'Sin Párpados',
+    category: 'Publicación',
+    description: 'Libro escrito y publicado en Google Play Books. Demuestra que en Caballero Core también nos atrevemos con proyectos creativos propios.',
+    href: 'https://play.google.com/store/books/details/Luis_Angel_Caballero_Jardon_Sin_Parpados?id=oanBEQAAQBAJ&hl=es_MX',
+    linkLabel: 'Ver en Google Play'
   },
   {
     title: 'Soporte e infraestructura TI',
-    category: 'IT',
-    description: 'Soporte técnico, mantenimiento, configuración de equipos, operación de sistemas, redes, infraestructura y atención a usuarios.'
+    category: 'Soporte',
+    description: 'Atención a usuarios, configuración de equipos, redes y servidores; mantenimiento preventivo y correctivo para que el día a día no se detenga.'
   }
 ]
 </script>
@@ -43,16 +61,16 @@ const projects = [
           </p>
 
           <h2 class="mt-4 text-4xl font-black text-white md:text-5xl">
-            Experiencia aplicada a problemas reales.
+            Trabajo real que puedes ver y tocar.
           </h2>
 
           <p class="mt-5 text-slate-300">
-            Trabajo con proyectos reales de desarrollo, soporte, automatización, sitios web, operación de sistemas y soluciones tecnológicas para negocios.
+            Cada proyecto que tomamos lo entregamos terminado y funcionando. Aquí tienes una muestra: desde sitios para negocios locales hasta juegos publicados que puedes abrir y probar ahora mismo.
           </p>
         </div>
 
         <BaseButton href="/proyectos" variant="secondary">
-          Ver proyectos
+          Ver todos los proyectos
         </BaseButton>
       </div>
 

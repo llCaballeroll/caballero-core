@@ -17,7 +17,7 @@ const links = [
             Caballero Core
           </p>
           <p class="text-xs text-slate-400">
-            Tecnología funcional
+            Tecnología que sí funciona
           </p>
         </div>
       </NuxtLink>
@@ -37,7 +37,7 @@ const links = [
         to="/contacto"
         class="hidden rounded-full bg-cyan-400 px-5 py-2.5 text-sm font-bold text-slate-950 transition hover:bg-cyan-300 md:inline-flex"
       >
-        Cotizar
+        Contáctanos
       </NuxtLink>
 
       <MobileMenu class="md:hidden" />

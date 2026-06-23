@@ -15,28 +15,28 @@ const email = 'luis.caballero1199@outlook.com'
             </p>
 
             <h2 class="mt-4 text-4xl font-black text-white md:text-5xl">
-              ¿Tienes un problema tecnológico o una idea por desarrollar?
+              Cuéntanos qué necesitas. Te respondemos hoy mismo.
             </h2>
 
             <p class="mt-5 max-w-2xl text-slate-300">
-              Escríbeme con tu necesidad: página web, sistema, app, soporte técnico, mantenimiento, automatización, reportes o consultoría TI. Revisamos el caso, definimos alcance y preparamos una cotización clara.
+              No importa si todavía no tienes claro qué quieres ni cómo se llama. Escríbenos con palabras normales lo que necesitas resolver y nosotros lo traducimos a una solución concreta y un costo claro.
             </p>
 
             <div class="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                :href="buildWhatsAppUrl('Hola, quiero cotizar un proyecto o servicio con Caballero Core.', workPhone)"
+                :href="buildWhatsAppUrl('Hola, me gustaría platicar sobre un proyecto con Caballero Core.', workPhone)"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-7 py-3.5 text-sm font-bold text-slate-950 transition hover:bg-cyan-300"
               >
-                WhatsApp de trabajo
+                Escribir por WhatsApp
               </a>
 
               <a
                 :href="`mailto:${email}`"
                 class="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/5 px-7 py-3.5 text-sm font-bold text-white transition hover:bg-white/10"
               >
-                Enviar correo
+                Mandar correo
               </a>
             </div>
           </div>
@@ -44,10 +44,10 @@ const email = 'luis.caballero1199@outlook.com'
           <div class="space-y-4 rounded-3xl border border-white/10 bg-slate-950/70 p-6">
             <div>
               <p class="text-xs font-bold uppercase tracking-[0.25em] text-cyan-300">
-                WhatsApp principal
+                WhatsApp (principal)
               </p>
               <a
-                :href="buildWhatsAppUrl('Hola, quiero información de Caballero Core.', workPhone)"
+                :href="buildWhatsAppUrl('Hola, quiero información sobre Caballero Core.', workPhone)"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="mt-1 block text-lg font-bold text-white hover:text-cyan-300"
@@ -58,10 +58,10 @@ const email = 'luis.caballero1199@outlook.com'
 
             <div>
               <p class="text-xs font-bold uppercase tracking-[0.25em] text-cyan-300">
-                WhatsApp alternativo
+                WhatsApp (alterno)
               </p>
               <a
-                :href="buildWhatsAppUrl('Hola, quiero información de Caballero Core.', personalPhone)"
+                :href="buildWhatsAppUrl('Hola, quiero información sobre Caballero Core.', personalPhone)"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="mt-1 block text-lg font-bold text-white hover:text-cyan-300"
@@ -84,19 +84,19 @@ const email = 'luis.caballero1199@outlook.com'
 
             <div>
               <p class="text-xs font-bold uppercase tracking-[0.25em] text-cyan-300">
-                Base
+                Dónde estamos
               </p>
               <p class="mt-1 text-sm text-slate-300">
-                Metepec, Estado de México · C.P. 52172
+                Metepec, Estado de México
               </p>
             </div>
 
             <div>
               <p class="text-xs font-bold uppercase tracking-[0.25em] text-cyan-300">
-                Cobertura
+                A quién atendemos
               </p>
               <p class="mt-1 text-sm text-slate-300">
-                Atención remota nacional y atención presencial sujeta a zona.
+                A toda la república de forma remota. Visitas presenciales según zona.
               </p>
             </div>
 
@@ -105,7 +105,7 @@ const email = 'luis.caballero1199@outlook.com'
                 Horario
               </p>
               <p class="mt-1 text-sm text-slate-300">
-                9:00 AM - 21:00
+                Lunes a sábado · 9:00 a 21:00
               </p>
             </div>
           </div>

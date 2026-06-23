@@ -7,39 +7,39 @@
         </p>
 
         <h2 class="mt-4 text-4xl font-black text-white md:text-5xl">
-          Una marca de soluciones tecnológicas dirigida por Luis Caballero.
+          La marca tecnológica de Luis Caballero, hecha para acompañarte.
         </h2>
       </div>
 
       <div class="space-y-5 text-slate-300">
         <p>
-          Caballero Core nace para ofrecer soluciones tecnológicas claras, funcionales y adaptadas a necesidades reales: páginas web, sistemas, apps móviles, automatización, reportes, soporte técnico, mantenimiento y consultoría TI.
+          Caballero Core nace de una idea simple: que la tecnología deje de ser un dolor de cabeza para tu negocio. Aquí no hablamos en código, hablamos claro, escuchamos lo que necesitas y entregamos algo que sí te sirve.
         </p>
 
         <p>
-          La marca es dirigida por Luis Caballero, desarrollador y especialista en sistemas con experiencia en entornos de operación, desarrollo de software, soporte técnico, bases de datos, ERP, reportes, infraestructura y gestión tecnológica.
+          Detrás de la marca está Luis Caballero, Ingeniero en Tecnologías de la Información con más de 7 años trabajando en desarrollo de software, soporte técnico, infraestructura y dirección de equipos de TI. Esa experiencia se convierte en proyectos que funcionan, no en promesas.
         </p>
 
         <p>
-          La experiencia incluye trabajo con operación restaurantera multi-sucursal, reportes con SQL Server, automatización con Python y Excel, sistemas internos, Softrestaurant, TOTVS, Kepler, así como proyectos web para negocios locales y servicios profesionales.
+          Hemos diseñado sitios web para negocios locales, automatizado reportes que ahorran horas a la semana, publicado apps móviles y videojuegos propios, y dado soporte a empresas que necesitan que su operación no se detenga.
         </p>
 
         <div class="grid gap-4 pt-4 sm:grid-cols-2">
           <div class="glass-card rounded-2xl p-5">
             <p class="text-2xl font-black text-cyan-300">
-              Web · Software · Apps
+              7+ años
             </p>
             <p class="mt-2 text-sm text-slate-400">
-              Desarrollo digital para negocios, marcas y operación interna.
+              De experiencia comprobable en desarrollo, soporte y dirección de TI.
             </p>
           </div>
 
           <div class="glass-card rounded-2xl p-5">
             <p class="text-2xl font-black text-cyan-300">
-              Soporte · Datos · TI
+              Trato directo
             </p>
             <p class="mt-2 text-sm text-slate-400">
-              Soluciones prácticas para operación, equipos, reportes y sistemas.
+              Hablas con quien hace el trabajo. Sin intermediarios ni call centers.
             </p>
           </div>
         </div>

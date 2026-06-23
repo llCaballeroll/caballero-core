@@ -7,11 +7,11 @@
         </p>
 
         <h1 class="mt-4 max-w-4xl text-5xl font-black text-white md:text-7xl">
-          Cotiza tu proyecto o servicio.
+          Hablemos de tu proyecto.
         </h1>
 
         <p class="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-          Cuéntame qué necesitas resolver: una página web, sistema, app, reporte, automatización, soporte técnico, mantenimiento de equipo o consultoría TI.
+          Una página web, un sistema interno, una app, un reporte que se haga solo o ese equipo que ya no responde. Escríbenos sin compromiso y te decimos qué se puede hacer y cuánto cuesta, en palabras claras.
         </p>
       </div>
     </section>

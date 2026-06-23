@@ -20,17 +20,17 @@ export default defineNuxtConfig({
       htmlAttrs: {
         lang: 'es-MX'
       },
-      title: 'Caballero Core | Desarrollo, soporte y soluciones tecnológicas',
+      title: 'Caballero Core | Páginas web, apps y soporte técnico para tu negocio',
       meta: [
         {
           name: 'description',
           content:
-            'Caballero Core by Luis Caballero: páginas web, sistemas, apps, automatización, soporte técnico, mantenimiento y consultoría TI para negocios.'
+            'Caballero Core, por Luis Caballero: páginas web, apps móviles, sistemas a la medida, automatización de reportes y soporte técnico para negocios y emprendedores en todo México.'
         },
         {
           name: 'keywords',
           content:
-            'Caballero Core, Luis Caballero, desarrollo web, sistemas web, apps móviles, soporte técnico, mantenimiento, automatización, Excel, SQL Server, Metepec, Toluca'
+            'Caballero Core, Luis Caballero, diseño de páginas web, apps móviles, soporte técnico, mantenimiento de computadoras, automatización, reportes, consultoría TI, Metepec, Toluca, Estado de México'
         },
         {
           name: 'author',
@@ -42,12 +42,12 @@ export default defineNuxtConfig({
         },
         {
           property: 'og:title',
-          content: 'Caballero Core'
+          content: 'Caballero Core · Tecnología que sí funciona'
         },
         {
           property: 'og:description',
           content:
-            'Desarrollo, soporte y soluciones tecnológicas para negocios reales.'
+            'Páginas web, apps móviles, sistemas a la medida y soporte técnico para negocios reales. Atendemos en todo México.'
         },
         {
           property: 'og:type',

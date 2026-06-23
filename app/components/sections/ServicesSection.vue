@@ -1,34 +1,34 @@
 <script setup lang="ts">
 const services = [
   {
-    title: 'Páginas Web & Landing Pages',
-    description: 'Sitios modernos, rápidos y responsivos para negocios, marcas personales, servicios profesionales y comercios locales.',
-    items: ['Sitios informativos', 'Landing pages', 'Catálogos digitales', 'Optimización responsive']
+    title: 'Páginas web que sí venden',
+    description: 'Sitios rápidos, claros y bonitos que se ven bien en celular y desktop. Pensados para que tus clientes te encuentren, te entiendan y te contacten.',
+    items: ['Sitios informativos y de marca', 'Landing pages para campañas', 'Catálogos digitales', 'Optimización para Google y móvil']
   },
   {
-    title: 'Sistemas Web & Herramientas Internas',
-    description: 'Desarrollo de sistemas a medida para operación, control, reportes, administración y flujos internos de negocio.',
-    items: ['Paneles administrativos', 'Herramientas internas', 'Control operativo', 'Integraciones']
+    title: 'Sistemas a la medida para tu operación',
+    description: 'Plataformas internas que ordenan tu negocio: registro de ventas, control de inventario, reportes, accesos por rol y todo lo que hoy haces en hojas sueltas.',
+    items: ['Paneles administrativos', 'Control de procesos internos', 'Reportes en tiempo real', 'Integración con tus herramientas']
   },
   {
-    title: 'Apps Móviles',
-    description: 'Aplicaciones móviles, prototipos, MVPs y experiencias interactivas desarrolladas con tecnologías modernas como Flutter.',
-    items: ['Apps Android/iOS', 'Prototipos', 'MVPs', 'Experiencias interactivas']
+    title: 'Apps móviles Android e iOS',
+    description: 'Desarrollamos apps para que tu negocio viva también en el celular de tus clientes o de tu equipo: catálogos, pedidos, herramientas internas o ideas propias.',
+    items: ['Android y iOS desde un solo desarrollo', 'Publicación en tiendas', 'Prototipos y MVPs', 'Mantenimiento y actualizaciones']
   },
   {
-    title: 'Automatización & Datos',
-    description: 'Automatización de procesos, reportes, Excel avanzado, Google Sheets, SQL Server, macros, dashboards y bases de datos.',
-    items: ['Python', 'SQL Server', 'Excel avanzado', 'Reportes automáticos']
+    title: 'Automatización de tareas y reportes',
+    description: 'Eliminamos el trabajo repetitivo: reportes que se generan solos, archivos que se actualizan automáticamente y datos que se consolidan sin que muevas un dedo.',
+    items: ['Reportes automáticos por correo', 'Excel y Google Sheets inteligentes', 'Conexión con bases de datos', 'Tableros de indicadores']
   },
   {
-    title: 'Soporte Técnico & Mantenimiento',
-    description: 'Diagnóstico, mantenimiento, formateo, optimización, instalación de software, respaldos y soporte remoto o presencial según zona.',
-    items: ['PCs y laptops', 'Windows / Linux', 'Respaldo de información', 'Optimización']
+    title: 'Soporte técnico y mantenimiento',
+    description: 'Atendemos tu equipo cuando algo deja de funcionar y le damos mantenimiento antes de que falle. Respaldos seguros, equipos optimizados y atención remota o en sitio.',
+    items: ['Diagnóstico y reparación', 'Mantenimiento preventivo', 'Respaldo de información', 'Instalación y configuración']
   },
   {
-    title: 'Consultoría TI para Negocios',
-    description: 'Revisión de procesos, sistemas existentes, infraestructura, operación tecnológica y propuestas de mejora para negocios.',
-    items: ['Diagnóstico técnico', 'Procesos', 'Infraestructura', 'Recomendaciones']
+    title: 'Consultoría TI para tu negocio',
+    description: 'Revisamos cómo funciona tu tecnología hoy y te decimos sin rodeos qué se puede mejorar, qué conviene cambiar y qué te está costando dinero sin que lo sepas.',
+    items: ['Diagnóstico claro y honesto', 'Propuestas paso a paso', 'Acompañamiento en la decisión', 'Revisión de proveedores actuales']
   }
 ]
 </script>
@@ -42,11 +42,11 @@ const services = [
         </p>
 
         <h2 class="mt-4 text-4xl font-black text-white md:text-5xl">
-          Soluciones tecnológicas de principio a fin.
+          Un solo lugar para resolver lo tecnológico.
         </h2>
 
         <p class="mt-5 text-slate-300">
-          Caballero Core centraliza desarrollo, automatización, soporte y consultoría para ayudarte a resolver necesidades tecnológicas sin complicarte con múltiples proveedores.
+          En lugar de buscar un diseñador por aquí, un programador por allá y un técnico por otro lado, nosotros te acompañamos de principio a fin. Tú nos cuentas qué necesitas y nosotros lo resolvemos.
         </p>
       </div>
 
