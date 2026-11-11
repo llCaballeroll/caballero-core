@@ -1,6 +1,6 @@
 export const useWhatsApp = () => {
-  const workPhone = '527221240597'
-  const personalPhone = '527228868540'
+  const workPhone = '527228868540'
+  const personalPhone = '527221240597'
 
   const buildWhatsAppUrl = (
     message = 'Hola, quiero cotizar un proyecto con Caballero Core.',

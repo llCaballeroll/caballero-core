@@ -25,8 +25,8 @@ Tecnología que sí funciona, para negocios reales: páginas web, apps móviles,
 
 ## Contacto
 
-- WhatsApp principal: 722 124 0597
-- WhatsApp alterno: 722 886 8540
+- WhatsApp principal: 722 886 8540
+- WhatsApp alterno: 722 124 0597
 - Correo: luis.caballero1199@outlook.com
 - Dónde estamos: Metepec, Estado de México
 - A quién atendemos: a toda la república de forma remota

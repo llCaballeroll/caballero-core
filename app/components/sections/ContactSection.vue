@@ -10,12 +10,12 @@ const { buildWhatsAppUrl, personalPhone } = useWhatsApp()
       <div class="contact-list">
         <a v-reveal class="contact-item" :href="buildWhatsAppUrl('Hola, quiero información sobre Caballero Core.')" target="_blank" rel="noopener noreferrer">
           <span class="ci-icon wa"><AppIcon name="whatsapp" /></span>
-          <span class="ci-text"><span>WhatsApp principal</span><strong>722 124 0597</strong></span>
+          <span class="ci-text"><span>WhatsApp principal</span><strong>722 886 8540</strong></span>
           <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
         </a>
         <a v-reveal class="contact-item" :href="buildWhatsAppUrl('Hola, quiero información sobre Caballero Core.', personalPhone)" target="_blank" rel="noopener noreferrer">
           <span class="ci-icon wa"><AppIcon name="whatsapp" /></span>
-          <span class="ci-text"><span>WhatsApp alterno</span><strong>722 886 8540</strong></span>
+          <span class="ci-text"><span>WhatsApp alterno</span><strong>722 124 0597</strong></span>
           <svg class="chevron" viewBox="0 0 10 16" aria-hidden="true"><path d="M2 2l6 6-6 6" /></svg>
         </a>
         <a v-reveal class="contact-item" :href="`mailto:${brand.email}`">

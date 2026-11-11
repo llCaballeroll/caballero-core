@@ -40,7 +40,7 @@ const year = 2026
         <div>
           <h4>Contacto</h4>
           <ul>
-            <li><a :href="buildWhatsAppUrl()" target="_blank" rel="noopener noreferrer">WhatsApp 722 124 0597</a></li>
+            <li><a :href="buildWhatsAppUrl()" target="_blank" rel="noopener noreferrer">WhatsApp 722 886 8540</a></li>
             <li><a :href="`mailto:${brand.email}`">Correo</a></li>
             <li>{{ brand.location }}</li>
             <li>Lun–Sáb · 9:00 a 21:00</li>
