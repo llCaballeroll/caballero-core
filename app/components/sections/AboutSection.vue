@@ -1,48 +1,56 @@
-<template>
-  <section class="section-padding border-t border-white/10">
-    <div class="section-container grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
-      <div>
-        <p class="text-sm font-bold uppercase tracking-[0.3em] text-cyan-300">
-          Sobre Caballero Core
-        </p>
+<script setup lang="ts">
+import { brand } from '~/data/site'
 
-        <h2 class="mt-4 text-4xl font-black text-white md:text-5xl">
-          La marca tecnológica de Luis Caballero, hecha para acompañarte.
-        </h2>
+defineProps<{ full?: boolean, alt?: boolean }>()
+const base = useRuntimeConfig().app.baseURL
+
+const timeline = [
+  { date: '2026 — hoy', role: 'Responsable de TI y software', place: 'Cadena de restaurantes · 26 sucursales' },
+  { date: '2025 — 2026', role: 'Desarrollador de apps independiente', place: 'Apps y juegos en App Store y Google Play' },
+  { date: '2022 — 2025', role: 'Gerente de Tecnologías de la Información', place: 'Industria · equipo de 5 personas' },
+  { date: '2022', role: 'Consultor de datos (ETL)', place: 'Capgemini' },
+  { date: '2019 — 2022', role: 'Auxiliar de TI', place: 'Industria · soporte y ERP' }
+]
+
+const skills = ['Páginas web', 'Flutter (Android e iOS)', 'SwiftUI', 'C# / .NET', 'SQL Server', 'Python', 'Google Apps Script', 'Agentes de IA', 'Redes y Fortinet', 'Windows Server']
+</script>
+
+<template>
+  <section class="section" :class="{ 'section-alt': alt }">
+    <div class="container about">
+      <div v-reveal class="about-card">
+        <img :src="base + 'img/perfil.jpg'" alt="Luis Caballero" width="132" height="132">
+        <h3>{{ brand.founder }}</h3>
+        <p>Fundador · Ingeniero en TI</p>
+        <div class="links">
+          <a :href="brand.portfolio" target="_blank" rel="noopener noreferrer">Portafolio</a>
+          <a :href="brand.linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a :href="brand.github" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
       </div>
 
-      <div class="space-y-5 text-slate-300">
+      <div class="about-text">
+        <span class="eyebrow">Sobre mí</span>
+        <h2 class="section-title" style="margin-bottom: 20px">Hablas directo con quien hace el trabajo.</h2>
         <p>
-          Caballero Core nace de una idea simple: que la tecnología deje de ser un dolor de cabeza para tu negocio. Aquí no hablamos en código, hablamos claro, escuchamos lo que necesitas y entregamos algo que sí te sirve.
+          Soy Luis Caballero, Ingeniero en Tecnologías de la Información con <strong>más de 7 años</strong> en desarrollo de software, soporte, infraestructura y dirección de equipos de TI.
+        </p>
+        <p>
+          Caballero Core nace para que la tecnología deje de ser un dolor de cabeza: escucho lo que necesitas, te lo explico sin tecnicismos y entrego algo que sí te sirve. Hoy trabajo con <strong>inteligencia artificial</strong> en cada proyecto para entregar más rápido y con mejor calidad.
         </p>
 
-        <p>
-          Detrás de la marca está Luis Caballero, Ingeniero en Tecnologías de la Información con más de 7 años trabajando en desarrollo de software, soporte técnico, infraestructura y dirección de equipos de TI. Esa experiencia se convierte en proyectos que funcionan, no en promesas.
-        </p>
-
-        <p>
-          Hemos diseñado sitios web para negocios locales, automatizado reportes que ahorran horas a la semana, publicado apps móviles y videojuegos propios, y dado soporte a empresas que necesitan que su operación no se detenga.
-        </p>
-
-        <div class="grid gap-4 pt-4 sm:grid-cols-2">
-          <div class="glass-card rounded-2xl p-5">
-            <p class="text-2xl font-black text-cyan-300">
-              7+ años
-            </p>
-            <p class="mt-2 text-sm text-slate-400">
-              De experiencia comprobable en desarrollo, soporte y dirección de TI.
-            </p>
+        <template v-if="full">
+          <div class="timeline">
+            <div v-for="t in timeline" :key="t.role" class="tl-item">
+              <span>{{ t.date }}</span>
+              <div><b>{{ t.role }}</b><em>{{ t.place }}</em></div>
+            </div>
           </div>
-
-          <div class="glass-card rounded-2xl p-5">
-            <p class="text-2xl font-black text-cyan-300">
-              Trato directo
-            </p>
-            <p class="mt-2 text-sm text-slate-400">
-              Hablas con quien hace el trabajo. Sin intermediarios ni call centers.
-            </p>
+          <div class="chips" style="margin-top: 24px">
+            <span v-for="s in skills" :key="s" class="chip">{{ s }}</span>
           </div>
-        </div>
+        </template>
+        <NuxtLink v-else to="/sobre-mi" class="text-link" style="margin-top: 20px">Conocer más</NuxtLink>
       </div>
     </div>
   </section>

@@ -1,10 +1,12 @@
 <template>
   <main>
     <HeroSection />
-    <ServicesSection />
-    <ProjectsSection />
+    <StatsSection />
+    <ServicesSection link />
+    <AiSection />
+    <ProjectsSection alt />
     <ProcessSection />
-    <AboutSection />
-    <ContactSection />
+    <AboutSection alt />
+    <CtaSection />
   </main>
 </template>

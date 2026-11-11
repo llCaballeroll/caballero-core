@@ -6,19 +6,22 @@ Tecnología que sí funciona, para negocios reales: páginas web, apps móviles,
 
 ## Lo que hacemos
 
-- Páginas web y landing pages que sí venden
-- Sistemas a la medida para tu operación
-- Apps móviles para Android e iOS
-- Automatización de tareas y reportes
-- Soporte técnico y mantenimiento de equipos
-- Consultoría TI clara y honesta
+- Páginas web que venden
+- Inteligencia artificial para tu negocio
+- Sistemas a la medida (web, Windows y Mac)
+- Apps para Android e iOS
+- Reportes y tableros automáticos
+- Soporte y consultoría TI
 
 ## Proyectos públicos
 
+- [MUTA](https://llcaballeroll.github.io/muta_web/) — juego móvil
+- [Orbita – Wrist Browser](https://llcaballeroll.github.io/orbita_browser_web/) — navegador para Apple Watch
 - [Snake Islands](https://llcaballeroll.github.io/snake_islands_web/) — juego móvil
-- [Amon: The Mystic Oracle](https://llcaballeroll.github.io/amon_oracle_web/) — juego móvil con reconocimiento de voz
+- [Amon: The Mystic Oracle](https://llcaballeroll.github.io/amon_oracle_web/) — oráculo por voz
 - [Bounce Royale](https://llcaballeroll.github.io/bounce_royale_web/) — juego móvil casual
-- [Sin Párpados](https://play.google.com/store/books/details/Luis_Angel_Caballero_Jardon_Sin_Parpados?id=oanBEQAAQBAJ&hl=es_MX) — libro publicado en Google Play
+- Crazy Chicken — próximamente
+- [Sin Párpados](https://play.google.com/store/books/details/Luis_Angel_Caballero_Jardon_Sin_Parpados?id=oanBEQAAQBAJ&hl=es_MX) — libro en Google Play
 
 ## Contacto
 
@@ -31,10 +34,11 @@ Tecnología que sí funciona, para negocios reales: páginas web, apps móviles,
 
 ## Stack
 
-- Nuxt
-- Vue
-- Tailwind CSS
-- GitHub Pages
+- Nuxt 4 + Vue (sitio estático prerenderizado)
+- CSS propio basado en la guía de diseño de Apple (awesome-design-md), con tema claro y oscuro
+- GitHub Pages (se publica solo con cada push a `main`)
+
+Los textos, servicios y proyectos están en `app/data/site.ts`.
 
 ## Desarrollo local
 
